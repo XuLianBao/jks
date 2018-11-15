@@ -16,4 +16,9 @@ import org.springframework.web.bind.annotation.RestController;
         public String hello() {
             return "Hello Spring Boot xlb!";
         }
+
+    @RequestMapping("/hello2")
+    public String hello2() {
+        return "Spring boot 中文测试开始12：23!";
+    }
     }
